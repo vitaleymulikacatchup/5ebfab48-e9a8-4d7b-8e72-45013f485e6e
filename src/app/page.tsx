@@ -13,7 +13,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 2, textAnimation: "slide" }}>
       <NavbarLayoutFloatingInline
         logoSrc="/images/logo.svg"
-        logoAlt="MemeCoin"
         navItems={[{ name: "Hero", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }, { name: "FAQ", id: "faq" }, { name: "Footer", id: "footer" }]}
         buttonText="Buy MemeCoin"
       />
